@@ -223,6 +223,23 @@ address {
   letter-spacing: 0.02em;
 }
 
+.icon-container {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.icon {
+  fill: #2e2f42;
+  width: 64px;
+  height: 64px;
+}
+
 /* Section 3 */
 .team-section {
   padding: 120px 0;
@@ -254,6 +271,39 @@ address {
 
 .team-member-text {
   text-align: center;
+  margin-bottom: 8px;
+}
+
+/* .team-list {
+  display: flex;
+  gap: 24px;
+  flex-shrink: 0;
+  align-self: flex-end; */
+
+.link-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.team-list .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.team-list .link:hover {
+  background-color: #404bbf;
+}
+
+.social-link-icon {
+  fill: #f4f4fd;
+  width: 16px;
+  height: 16px;
 }
 
 /* Section 4 */
