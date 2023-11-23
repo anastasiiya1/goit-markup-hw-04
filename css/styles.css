@@ -313,6 +313,7 @@ address {
 .social-link-item {
   width: 40px;
   height: 40px;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link {
@@ -350,12 +351,12 @@ address {
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover .overlay-element {
@@ -377,8 +378,6 @@ address {
 
 .main-element {
   position: relative;
-  /* width: 200px;
-  height: 200px; */
   overflow: hidden;
 }
 
@@ -442,6 +441,7 @@ address {
   color: #ffffff;
   font-weight: 500;
   letter-spacing: 0.32px;
+  margin-bottom: 16px;
 }
 
 .social-media-container {
