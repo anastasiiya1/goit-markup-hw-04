@@ -84,10 +84,14 @@ header {
 }
 
 .list-item {
-  color: #2e2f42;
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
+}
+
+.nav-menu-link {
+  padding: 24px 0;
+  color: #2e2f42;
 }
 
 .nav-menu-link.current {
